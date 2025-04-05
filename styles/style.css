@@ -24,7 +24,7 @@ main {
 .header__links-list {
   display: flex;
   gap: 32px;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
 }
 
@@ -43,7 +43,7 @@ main {
 .header__link {
   font-size: 18px;
   white-space: nowrap;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
 }
 
 .address {
@@ -52,7 +52,7 @@ main {
   flex-direction: column;
   justify-self:flex-end;
   padding-right: 52px;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
 }
 
@@ -184,24 +184,20 @@ main {
   width: auto;
   height: 100%;
   padding: 50px 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card__title {
@@ -245,7 +241,7 @@ main {
 
 .about__column_text {
   grid-column: 2/4;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 400px;
   font-size: 20px;
   line-height: 24px;
@@ -285,6 +281,7 @@ main {
   font-size: 20px;
   line-height: normal;
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
