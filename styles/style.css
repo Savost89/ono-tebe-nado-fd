@@ -1,7 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: 183px;
+  gap: 157px;
 }
 
 .content-section_theme_bright {
@@ -31,12 +31,13 @@ main {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-size: 18px;
-  padding-bottom: 7px;
+  padding-bottom: 3px;
 }
 
 .header__links-list {
   display: flex;
   gap: 32px;
+
 }
 
 .header__link_active {
@@ -63,7 +64,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-self:flex-end;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-right: 38px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -73,7 +74,7 @@ main {
 
 .cover {
   position: relative;
-  padding: 165px 50px 50px 50px;
+  padding: 165px 50px 50px 44px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,12 +108,13 @@ main {
 
 .aligned-text {
   display: block;
+  padding-left: 5px;
 }
 
 .aligned-text_center {
   line-height: 1;
   text-align: center;
-  padding-left: 27px;
+  padding-left: 30px;
   padding-top: 10px;
 }
 
@@ -169,7 +171,7 @@ main {
 }
 
 .lots__heading {
-  padding: 0 0px 30px 65px;
+  padding: 28px 3px 30px 65px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -254,9 +256,8 @@ main {
 }
 
 .about {
-  position: relative;
-   bottom: 27px;
-   left: 15px;
+   padding-bottom: 57px;
+   margin-left: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 24px;
@@ -267,7 +268,6 @@ main {
 }
 
 .about__column_text {
-  position: relative;
   right: 8px;
   grid-column: 2/4;
   font-family: 'Raleway', sans-serif;
@@ -287,6 +287,13 @@ main {
   background-color: #000000;
 }
 
+.about__logo div {
+  width: 240px;
+height: 240px;
+top: 35px;
+left: 47px;
+}
+
 .about__logo-image {
   width: 148px;
 }
@@ -296,6 +303,7 @@ main {
   font-size: 40px;
   line-height: 1;
   text-transform: uppercase;
+  padding-bottom: 50px;
 }
 
 .about__text {
@@ -306,24 +314,16 @@ main {
   line-height: normal;
   font-family: 'Raleway', sans-serif;
   line-height: 24px;
-  padding-top: 103px;
+  padding-top: 50px;
   padding-right: 35px;
-}
-
-.about__text_custom_spacing{
-  word-spacing: 0px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 155px 50px 100px;
+  padding: 125px 50px 100px;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-}
-
-.address__item {
-
 }
 
 .footer__social-icon {
